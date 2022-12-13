@@ -1,0 +1,146 @@
+
+
+
+
+
+#head{
+
+   /* background-image: url("./images/site\ bg.jpg");*/
+    background-repeat:"no-repeat";
+    background-size:"fill";
+    background-position:'center';
+    background-attachment:'';
+    height: 240 vh;
+}
+
+
+#home{
+    position: absolute;
+    top: 8%;
+    left: 17%;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+#gallery{
+    position: absolute;
+    top: 8%;
+    left: 32%;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#events{
+    position: absolute;
+    top: 8%;
+    left: 47%;
+    color: aliceblue;
+    font-size: 20px;
+}
+#uploads{
+    position: absolute;
+    top: 8%;
+    left:62%;
+    color: aliceblue;
+    font-size: 20px;
+}
+#support{
+    position: absolute;
+    top: 8%;
+    left: 77%;
+    color: aliceblue;
+    font-size: 20px;
+}
+#dps
+{
+position: absolute;
+    top: 7%;
+    left: 92%;
+    color: aliceblue;
+
+}
+#EventHead{
+    text-align: center;
+    justify-content: center;
+    color:floralwhite;
+    
+    margin-top: 2%;
+}
+
+h2{
+    color: rgb(233, 245, 3);
+}
+
+#container1
+{
+    display: flex;
+    align-items: center;
+}
+
+#container1 img
+{
+    margin-right: 60px;
+}
+
+#Para1
+{
+    color: rgb(255, 255, 255);
+}
+#container2
+{
+    display: flex;
+    align-items: center;
+}
+
+#container2 img
+{
+    margin-right: 60px;
+}
+
+#Para2
+{
+    color: rgb(255, 255, 255);
+}
+#container3
+{
+    display: flex;
+    align-items: center;
+}
+
+#container3 img
+{
+    margin-right: 60px;
+}
+
+#Para3
+{
+    color: rgb(255, 255, 255);
+}
+
+#Para4
+{
+   color: black;
+}
+
+#contact
+{
+    background-color: rgb(164, 164, 164);
+}
+
+#contacthead
+{
+    color: #000;
+}
+
+#imglogo
+{
+    display: flex;
+}
+
+#imginsta
+{
+    position: relative;
+    left: 92%;
+    bottom: 2cm;
+    
+}

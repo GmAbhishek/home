@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rebeccapurple;
+    background-image: url("./imgs/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header div{
+    display: flex;    
+    justify-content: space-around;    
+}
+
+header div img{
+    width: 100px;
+    height: 100px;
+}
+
+.content{
+    text-align: center;
+    position: relative;
+}
+
+hr{
+    border-color: red;
+}
+
+.content div{
+    border-radius: 40px;
+    width: 35%;
+    height: 150%;
+    left: 30%;
+    margin-top: 25px;
+    position: absolute;
+    opacity: 0.8;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.content div p{
+    position: absolute;
+    top: 70%;
+}
+
+h5{
+    border: none;
+    position: absolute;
+    top: 36%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    
+    animation-name: btn;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+input{
+    position: absolute;
+    left: 40%;
+    top: 42%;
+    opacity: 0;
+}
+
+@keyframes btn {
+    0%{
+        /* padding: 10px; */
+        background-color: blue;
+    }
+    50%{
+        /* padding: 30px; */
+        background-color: red;
+        /* border-radius: 25px; */
+    }
+    100%{
+        /* padding: 10px; */
+        background-color: blue;
+    }
+}
+
+
+footer div{
+    width: 100%;
+    height: 9%;
+    bottom: 0%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+
